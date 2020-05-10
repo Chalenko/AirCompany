@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Logo="ExpressAppLogo" PreferredLanguage="(User language)">
+  <NavigationItems>
+    <Items>
+      <Item Id="Default" Caption="BusinessObjects" Index="0" />
+      <Item Id="Reports" Index="1" />
+    </Items>
+  </NavigationItems>
+  <Options FormStyle="Ribbon" UIType="TabbedMDI">
+    <RibbonOptions RibbonControlStyle="Default" />
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="17.1.7.0" IsNewNode="True" />
+    <SchemaModule Name="SystemWindowsFormsModule" Version="17.1.7.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <ListView Id="Airplane_ListView" ShowFindPanel="True" />
+  </Views>
+</Application>

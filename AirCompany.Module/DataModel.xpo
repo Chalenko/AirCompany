@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataBaseObjectModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="e1c0ee5b-0f9d-43a7-9982-79fa6740dfbd" dbName="AirCompany" connectionInfo="77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxEZXZFeHByZXNzWHBvR2VuZXJhdG9yU2V0dGluZ3MgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSIgeG1sbnM6eHNkPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYSIgcHJvdmlkZXJLZXk9Ik1TU3FsU2VydmVyIj4NCiAgPHBhcmFtZXRlcj4NCiAgICA8Q29ubmVjdGlvblBhZ2VTZXR0aW5nc0l0ZW0gbmFtZT0ic2VydmVyIiB2YWx1ZT0iKGxvY2FsKSIgLz4NCiAgICA8Q29ubmVjdGlvblBhZ2VTZXR0aW5nc0l0ZW0gbmFtZT0iZGF0YWJhc2UiIHZhbHVlPSJBaXJDb21wYW55IiAvPg0KICAgIDxDb25uZWN0aW9uUGFnZVNldHRpbmdzSXRlbSBuYW1lPSJ1c2VJbnRlZ3JhdGVkU2VjdXJpdHkiIHZhbHVlPSJUcnVlIiAvPg0KICAgIDxDb25uZWN0aW9uUGFnZVNldHRpbmdzSXRlbSBuYW1lPSJ1c2VyaWQiIHZhbHVlPSIiIC8+DQogICAgPENvbm5lY3Rpb25QYWdlU2V0dGluZ3NJdGVtIG5hbWU9InBhc3N3b3JkIiB2YWx1ZT0iIiAvPg0KICAgIDxDb25uZWN0aW9uUGFnZVNldHRpbmdzSXRlbSBuYW1lPSJyZWFkIG9ubHkiIHZhbHVlPSIxIiAvPg0KICAgIDxDb25uZWN0aW9uUGFnZVNldHRpbmdzSXRlbSBuYW1lPSJnZW5lcmF0ZUNvbm5lY3Rpb25IZWxwZXIiIHZhbHVlPSJ0cnVlIiAvPg0KICA8L3BhcmFtZXRlcj4NCjwvRGV2RXhwcmVzc1hwb0dlbmVyYXRvclNldHRpbmdzPg==" namespace="AirCompany.Module.AirCompany" connectionString="XpoProvider=MSSqlServer;data source=(local);integrated security=SSPI;initial catalog=AirCompany" dataBaseShemaInfo="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" generateConnectionHelper="true" generateStoredProcedures="true" fieldNameCase="Unchanged" generateDefaultConstructors="false" generateClassesForViews="true" useNameOf="true" xmlns="http://schemas.microsoft.com/dsltools/ORMDataModel">
+  <comments>
+    <dataBaseObjectModelHasComments Id="f82123a2-64a9-4834-bd6f-15959dd32078">
+      <comment Id="bd59874b-3a24-4d93-a61e-3d7fb59da540" text="Cannot generate a persistent property for the 'OptimisticLockField' column. In XPO, 'OptimisticLockField' is the reserved system field that should not be implemented in your code. Values in this column will be handled internally.;&#xD;&#xA;Cannot generate a persistent property for the 'GCRecord' column. In XPO, 'GCRecord' is the reserved system field that should not be implemented in your code. Values in this column will be handled internally.;&#xD;&#xA;The reference to the 'GCRecord' field from the 'iGCRecord_ReportDataV2' index is ignored.;&#xD;&#xA;The 'PK_ReportDataV2' index is ignored, because 'Oid' is a key" name="ReportDataV2Comment">
+        <subjects>
+          <commentReferencesSubjects Id="f5c5abe9-5fc0-49f8-bacd-37c639c35f24">
+            <xpObjectMoniker Id="c3a5fce2-2542-4724-9e49-b12fc83e01b8" />
+          </commentReferencesSubjects>
+        </subjects>
+      </comment>
+    </dataBaseObjectModelHasComments>
+  </comments>
+  <classes>
+    <dataBaseObjectModelHasClasses Id="f593947f-26b2-4b8f-9912-a06129560b77">
+      <xpObject Id="d9a57153-f701-488d-b944-febdc7a025d1" name="Airplane" baseClass="XPCustomObject" userFileName="Airplane" designerFileName="Airplane.Designer" className="Airplane" virtualBaseClass="XPCustomObject" persistent="Airplane" virtualName="Airplane">
+        <fields>
+          <generalXpObjectHasFields Id="8d18a52e-0882-4181-8e37-1ba2d216ac23">
+            <field Id="d785d94d-a50c-49ff-abf4-a81fa1c1b15c" name="Oid" columnType="Guid" key="true" isIdentity="true" persistent="Oid" virtualColumnType="Guid" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="d96c0b0b-ce05-4498-80d2-72dea1252e89">
+            <field Id="f989eba8-e31f-4c04-be96-947ce1f2ab06" name="BordName" persistent="BordName" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="c6065a08-c9ee-484d-a208-fdaf3cb3b6b7">
+            <field Id="c25e0bf2-4f3b-4ab6-97a3-64d7a411fa2c" name="MaxSpeed" columnType="Double" persistent="MaxSpeed" virtualColumnType="Double" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="fd897a1b-dfb6-48aa-98f6-462074f9c996">
+            <field Id="a374f9a6-d555-4fe8-a692-bdb3a1ce9911" name="SeatsCount" columnType="Int32" persistent="SeatsCount" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="3ccbd45d-d579-4cb2-8cf0-676aa144e286">
+            <field Id="653616ce-83a3-4e7a-999b-b8997fb2a99a" name="Fuel" columnType="Guid" persistent="Fuel" virtualColumnType="Fuel" logicalType="Fuel" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="88558b61-3193-42f6-9e7f-2f8085854db3">
+            <field Id="32eaee40-d1a3-4b94-b5b0-c7afc93c7354" name="Airport" columnType="Guid" persistent="Airport" virtualColumnType="Airport" logicalType="Airport" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="6297da97-7a43-4649-b599-87f32a18b241">
+            <field Id="0f26129c-8a51-4dea-80e4-41abe33c466b" name="Manufacturer" columnType="Guid" persistent="Manufacturer" virtualColumnType="Country" logicalType="Country" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <saTargets>
+          <simpleAssociation Id="3502a20d-fd55-4aed-a504-7d165225c298" sourceCollectionName="AviatorPilots_AirplaneAirplanss" name="AviatorPilots_AirplaneAirplansReferencesAirplane" targetFieldName="Airplans">
+            <xpObjectMoniker Id="92a15d2a-1660-4290-b591-a0d4950a573f" />
+          </simpleAssociation>
+        </saTargets>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="75317c80-8e32-4ae9-a0b0-c1c44f831304">
+            <collectionField Id="4b2b3a47-3286-4913-a569-b332699071dc" name="AviatorPilots_AirplaneAirplanss" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="07ad626a-64b3-4c7f-abc3-58bf1e9435c4">
+      <xpObject Id="2267334b-e4ca-4688-a140-d95da704ba95" name="Airport" baseClass="XPCustomObject" userFileName="Airport" designerFileName="Airport.Designer" className="Airport" virtualBaseClass="XPCustomObject" persistent="Airport" virtualName="Airport">
+        <fields>
+          <generalXpObjectHasFields Id="4a2ba958-35b5-42b1-b35e-3e7b15f7510f">
+            <field Id="64e68381-cc7a-4b6a-a37b-1cf7f5ff22d9" name="Oid" columnType="Guid" key="true" isIdentity="true" persistent="Oid" virtualColumnType="Guid" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="19f4393b-9d63-456e-85f7-f75376319097">
+            <field Id="f62fb09e-daa8-4057-bad7-c76049d8a747" name="Name" persistent="Name" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="fef8def1-80c0-4a3f-a4f4-831664ca23f1">
+            <field Id="498cddae-28bb-4289-946f-167a0b72ee07" name="Code" persistent="Code" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="3" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="4a19d25c-6ff9-4df1-ae45-445b6607d8ac">
+            <field Id="fe62a535-1fbc-4093-9539-36e69a09f2f0" name="City" columnType="Guid" persistent="City" virtualColumnType="City" logicalType="City" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="5322db4d-bc00-4fcc-b183-65ce05cdeb9c">
+            <field Id="93805541-ea88-4861-8672-02c6ba233f0a" name="Detail" persistent="Detail" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="2048" />
+          </generalXpObjectHasFields>
+        </fields>
+        <saTargets>
+          <simpleAssociation Id="41064199-578e-455d-a836-2b147ddbc4f0" sourceCollectionName="Airplanes" name="AirplaneReferencesAirport" targetFieldName="Airport">
+            <xpObjectMoniker Id="d9a57153-f701-488d-b944-febdc7a025d1" />
+          </simpleAssociation>
+          <simpleAssociation Id="44bad87e-4046-49cd-9aa3-315a954184dd" sourceCollectionName="Aviators" name="AviatorReferencesAirport" targetFieldName="Airport">
+            <xpObjectMoniker Id="0222d535-58ef-4f40-be24-734146a3f406" />
+          </simpleAssociation>
+        </saTargets>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="1790bc59-edfd-4bc9-b303-2536bc2356e8">
+            <collectionField Id="2ccc78e7-c50f-435c-b75d-63c0a364ba99" name="Airplanes" />
+          </xpObjectHasCollectionFields>
+          <xpObjectHasCollectionFields Id="92ef026e-a4db-43d0-8259-d902a49ccc38">
+            <collectionField Id="4a7e2709-2bf9-4eb7-887e-c27d75fc3234" name="Aviators" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="68f0f4f9-eb56-49d5-b075-42c10caf2809">
+      <xpObject Id="0222d535-58ef-4f40-be24-734146a3f406" name="Aviator" baseClass="XPCustomObject" userFileName="Aviator" designerFileName="Aviator.Designer" className="Aviator" virtualBaseClass="XPCustomObject" persistent="Aviator" virtualName="Aviator">
+        <fields>
+          <generalXpObjectHasFields Id="83ec1069-9e99-453a-a9e5-2f43732f1ab8">
+            <field Id="9142832a-2fcb-4fe2-b996-16a327b4a226" name="Oid" columnType="Guid" key="true" isIdentity="true" persistent="Oid" virtualColumnType="Guid" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="d5310040-5ccb-4f5c-9db5-7e706eb71106">
+            <field Id="8f98041d-cc27-4ce3-9802-3cf76a1a4dad" name="FirstName" persistent="FirstName" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="eec2e8b0-ef63-4580-93e0-397105ba0d45">
+            <field Id="9a372a9b-c52c-47a3-885c-fee94d10c3c5" name="LastName" persistent="LastName" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="c6323ce7-69ef-4cf8-a6bc-729fab8b8d47">
+            <field Id="89385705-79d1-424c-9b06-52288561a82b" name="BirthDate" columnType="DateTime" persistent="BirthDate" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="3acab107-c977-43f7-a4c5-bed4d973d3f9">
+            <field Id="7fe3a5c8-106a-4bbb-b47d-d5c0e08b5304" name="Airport" columnType="Guid" persistent="Airport" virtualColumnType="Airport" logicalType="Airport" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <saTargets>
+          <simpleAssociation Id="59ca923b-d68f-4aba-81fc-f641422ee0c8" sourceCollectionName="AviatorPilots_AirplaneAirplanss" name="AviatorPilots_AirplaneAirplansReferencesAviator" targetFieldName="Pilots">
+            <xpObjectMoniker Id="92a15d2a-1660-4290-b591-a0d4950a573f" />
+          </simpleAssociation>
+        </saTargets>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="03dc4955-98e4-4bf8-9e12-3ea97de2dff6">
+            <collectionField Id="8d0095a5-d715-42dc-8841-cee455f03306" name="AviatorPilots_AirplaneAirplanss" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="41230cd6-6fa2-46db-a90e-076c8c121ef5">
+      <xpObject Id="92a15d2a-1660-4290-b591-a0d4950a573f" name="AviatorPilots_AirplaneAirplans" baseClass="XPBaseObject" userFileName="AviatorPilots_AirplaneAirplans" designerFileName="AviatorPilots_AirplaneAirplans.Designer" className="AviatorPilots_AirplaneAirplans" virtualBaseClass="XPBaseObject" persistent="AviatorPilots_AirplaneAirplans" virtualName="AviatorPilots_AirplaneAirplans">
+        <fields>
+          <generalXpObjectHasFields Id="269172d3-4503-467e-ba16-a91597da96a1">
+            <field Id="39ee0f83-3dff-4e8b-8f89-a20082c343bd" name="Airplans" columnType="Guid" persistent="Airplans" virtualColumnType="Airplane" logicalType="Airplane" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="c554fbe6-10e5-48ac-855e-744ddd53683f">
+            <field Id="c299c981-9ee9-44b3-ad98-b54ad2d6a8dd" name="Pilots" columnType="Guid" persistent="Pilots" virtualColumnType="Aviator" logicalType="Aviator" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="0fbaf781-5674-4570-abdf-b50f25a29eec">
+            <field Id="42f1dc7f-933e-4d77-ae23-e8f20917abd4" name="OID" columnType="Guid" key="true" isIdentity="true" persistent="OID" virtualColumnType="Guid" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <indexes>
+          <xpObjectHasIndexes Id="1c2c57e0-37c7-40ea-8f5c-e6de190c226a">
+            <index Id="7046e473-8307-44bd-b8be-2816048e22e1" name="iAirplansPilots_AviatorPilots_AirplaneAirplans" unique="true">
+              <fieldsInIndex>
+                <indexReferencesFields Id="50b50eec-98fe-4f9e-aecb-30c73556a6e5">
+                  <fieldMoniker Id="39ee0f83-3dff-4e8b-8f89-a20082c343bd" />
+                </indexReferencesFields>
+                <indexReferencesFields Id="813f15e7-7844-477b-9ee4-af2399fe908d">
+                  <fieldMoniker Id="c299c981-9ee9-44b3-ad98-b54ad2d6a8dd" />
+                </indexReferencesFields>
+              </fieldsInIndex>
+            </index>
+          </xpObjectHasIndexes>
+        </indexes>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="97ccfd19-6a6a-4502-adff-6b0dbae40179">
+      <xpObject Id="7dc621d1-c228-4c9d-8db0-322024507864" name="City" baseClass="XPCustomObject" userFileName="City" designerFileName="City.Designer" className="City" virtualBaseClass="XPCustomObject" persistent="City" virtualName="City">
+        <fields>
+          <generalXpObjectHasFields Id="3d543cab-e298-473f-bc25-5d380dda1c89">
+            <field Id="d58b23eb-9631-442b-896b-0b1d51457e83" name="Oid" columnType="Guid" key="true" isIdentity="true" persistent="Oid" virtualColumnType="Guid" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="af9e5056-fa6d-4ad1-94f2-5b4630b4845f">
+            <field Id="230b5abc-2c84-469f-9067-e59cb2f2f191" name="burnDate" columnType="DateTime" persistent="burnDate" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="265ca3d8-3078-4f76-ae42-6352d4a81fba">
+            <field Id="57b1c420-2ac0-4397-8406-9d6cc01322e3" name="latitude" columnType="Double" persistent="latitude" virtualColumnType="Double" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="895f1b56-b6ca-4efd-b3d1-7a16e7cd0374">
+            <field Id="e763fdc5-d0a2-44f4-8917-829f5a685d38" name="longtitude" columnType="Double" persistent="longtitude" virtualColumnType="Double" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="0867d52d-1001-45dc-83dd-517b9e895bb5">
+            <field Id="48a2055c-7969-430b-baaa-973976d55b30" name="Name" persistent="Name" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="24982492-fb5a-42f8-8f68-0c8059f765ee">
+            <field Id="73d4f483-f9da-4f70-9da7-2e2864eb24a3" name="Population" columnType="Int32" persistent="Population" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="2efff232-e02d-4381-8399-571465d06eba">
+            <field Id="a9e95d0b-2e9d-4d2d-a38b-1c128989118b" name="Country" columnType="Guid" persistent="Country" virtualColumnType="Country" logicalType="Country" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="766d0b12-39b5-4635-90d5-3717ac96e2c3">
+            <field Id="685b643e-5db5-44b1-90c3-f50966879e7f" name="Metro" columnType="Boolean" persistent="Metro" virtualColumnType="Boolean" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <saTargets>
+          <simpleAssociation Id="b719f0c0-4bf7-4bbb-8b96-3f20bcce8b3a" sourceCollectionName="Airports" name="AirportReferencesCity" targetFieldName="City">
+            <xpObjectMoniker Id="2267334b-e4ca-4688-a140-d95da704ba95" />
+          </simpleAssociation>
+        </saTargets>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="ecf90e18-f700-4f54-8b92-d10a4e4ec2d0">
+            <collectionField Id="2f4b58b2-d3e2-436a-815f-8724f227c8d3" name="Airports" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="f4efa88b-648d-45c7-b7ad-a556fffd5e6c">
+      <xpObject Id="7b1c0a24-e6c8-4975-b916-10d9061d75a1" name="Country" baseClass="XPCustomObject" userFileName="Country" designerFileName="Country.Designer" className="Country" virtualBaseClass="XPCustomObject" persistent="Country" virtualName="Country">
+        <fields>
+          <generalXpObjectHasFields Id="b899a897-8950-447e-9f89-0e8ddb897fb5">
+            <field Id="424a7b46-ac55-4509-bbe6-3f5bf6485454" name="Oid" columnType="Guid" key="true" isIdentity="true" persistent="Oid" virtualColumnType="Guid" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="f9698546-0cad-4419-b425-8a5b889a9620">
+            <field Id="d0e13482-b206-432b-89f6-43834952cb10" name="Name" persistent="Name" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="429d0ab8-f049-4656-aa36-1d4bc12a7866">
+            <field Id="0acf7eb3-38f0-4998-b63f-19f3353ae5ee" name="Code" persistent="Code" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <saTargets>
+          <simpleAssociation Id="6a9b2282-82c2-4dcf-9efd-7fe0a1b85608" sourceCollectionName="Airplanes" name="AirplaneReferencesCountry" targetFieldName="Manufacturer">
+            <xpObjectMoniker Id="d9a57153-f701-488d-b944-febdc7a025d1" />
+          </simpleAssociation>
+          <simpleAssociation Id="a460255e-3bd2-46df-8e7c-f8cf29cec023" sourceCollectionName="Cities" name="CityReferencesCountry" targetFieldName="Country">
+            <xpObjectMoniker Id="7dc621d1-c228-4c9d-8db0-322024507864" />
+          </simpleAssociation>
+        </saTargets>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="92153d1b-671e-4c93-9b7f-68f04229dd80">
+            <collectionField Id="9d5dc8a9-783c-41f6-aefa-2518665b8abf" name="Airplanes" />
+          </xpObjectHasCollectionFields>
+          <xpObjectHasCollectionFields Id="21fc36a9-9c3d-4e91-9404-337a3ddadca5">
+            <collectionField Id="6040185a-9687-4d2d-8aed-30643f8dd063" name="Cities" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="ff2a8449-599a-4c0f-a97f-453645b2b12d">
+      <xpObject Id="393c5356-988d-47c4-a06e-d2d5386c3072" name="Fuel" baseClass="XPCustomObject" userFileName="Fuel" designerFileName="Fuel.Designer" className="Fuel" virtualBaseClass="XPCustomObject" persistent="Fuel" virtualName="Fuel">
+        <fields>
+          <generalXpObjectHasFields Id="a3e03cd0-1487-40f0-8b41-6ba8857eda9f">
+            <field Id="28fbbd2a-4671-41a2-b927-2a5674a33399" name="Oid" columnType="Guid" key="true" isIdentity="true" persistent="Oid" virtualColumnType="Guid" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="3a00078e-f945-4990-a147-1fc996d0ad29">
+            <field Id="0d41384e-6b10-4c9c-8a4d-89f8e3c82f1d" name="Name" persistent="Name" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <saTargets>
+          <simpleAssociation Id="2e13126c-55e7-49de-919e-655311168f75" sourceCollectionName="Airplanes" name="AirplaneReferencesFuel" targetFieldName="Fuel">
+            <xpObjectMoniker Id="d9a57153-f701-488d-b944-febdc7a025d1" />
+          </simpleAssociation>
+        </saTargets>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="6b9c5c58-b753-4df2-a30f-09be86430024">
+            <collectionField Id="0bd99131-6d91-4706-8c4e-9264ab0d3c63" name="Airplanes" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="228ac3e4-c5af-4ec1-b310-dfae8f3714f8">
+      <xpObject Id="c3a5fce2-2542-4724-9e49-b12fc83e01b8" name="ReportDataV2" baseClass="XPCustomObject" userFileName="ReportDataV2" designerFileName="ReportDataV2.Designer" className="ReportDataV2" virtualBaseClass="XPCustomObject" persistent="ReportDataV2" virtualName="ReportDataV2">
+        <fields>
+          <generalXpObjectHasFields Id="81144567-3232-4775-bc71-c0879fa809d5">
+            <field Id="42bd6081-2930-4857-b510-c9e03c2c1576" name="Oid" columnType="Guid" key="true" isIdentity="true" persistent="Oid" virtualColumnType="Guid" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="84394aca-be24-499f-9923-113905f4e89c">
+            <field Id="5be985ee-9d76-4694-a1eb-bdc995d81b98" name="ObjectTypeName" persistent="ObjectTypeName" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="512" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="ef8da416-ab9c-4b9f-b141-eb67502ed2e2">
+            <field Id="da418fbc-1e74-4dfe-95d4-8511d27c1c47" name="Content" columnType="ByteArray" persistent="Content" virtualColumnType="ByteArray" delayedUpdateModifiedOnly="false" size="Unlimited" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="23fd8b26-7082-4314-bd4f-a44a6e1c0df0">
+            <field Id="7765b6bc-5811-4b8f-9d3e-11b3e97a5ba5" name="Name" persistent="Name" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="01499f5d-b25f-45a9-a6a7-d1058bd4ee3c">
+            <field Id="4e69952d-8f7f-4834-a3bd-6a4a02f7cedb" name="ParametersObjectTypeName" persistent="ParametersObjectTypeName" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="512" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="2d30cc52-b49d-4e47-a56e-45438bccd0cf">
+            <field Id="3e6c5a4e-2076-4d34-8d2c-d08c6bcebd94" name="IsInplaceReport" columnType="Boolean" persistent="IsInplaceReport" virtualColumnType="Boolean" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="c13501d1-0ca6-4d8a-9908-5bc457ec14b1">
+            <field Id="7c721916-9328-4b05-a87d-71f4c674365e" name="PredefinedReportType" persistent="PredefinedReportType" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="512" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+  </classes>
+</dataBaseObjectModel>

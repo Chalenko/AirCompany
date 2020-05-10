@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <BOModel>
+    <Class Name="AirCompany.Module.BusinessObjects.Airplane" ImageName="airplane" />
+    <Class Name="AirCompany.Module.BusinessObjects.Airport" ImageName="airport" />
+    <Class Name="AirCompany.Module.BusinessObjects.Aviator" ImageName="aviator" />
+    <Class Name="AirCompany.Module.BusinessObjects.City" ImageName="city" />
+    <Class Name="AirCompany.Module.BusinessObjects.Country" ImageName="BO_Country_v92" />
+    <Class Name="AirCompany.Module.BusinessObjects.Fuel" ImageName="fuel" />
+  </BOModel>
+  <NavigationItems StartupNavigationItem="">
+    <Items>
+      <Item Id="Default" ChildItemsDisplayStyle="List" />
+      <Item Id="Reports" ImageName="BO_Report" />
+    </Items>
+  </NavigationItems>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="17.1.7.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <ListView Id="Airplane_ListView" ShowAutoFilterRow="True" IsFooterVisible="True" />
+    <ListView Id="Airplane_Pilots_ListView">
+      <Columns>
+        <ColumnInfo Id="FirstName" SortIndex="1" />
+        <ColumnInfo Id="LastName" SortIndex="0" SortOrder="Ascending" />
+      </Columns>
+    </ListView>
+    <ListView Id="Airport_Pilots_ListView">
+      <Columns>
+        <ColumnInfo Id="FirstName" SortIndex="1" />
+        <ColumnInfo Id="LastName" SortIndex="0" SortOrder="Ascending" />
+      </Columns>
+    </ListView>
+    <DetailView Id="Aviator_DetailView" ObjectCaptionFormat="{0:FullName}" />
+    <ListView Id="Aviator_ListView">
+      <Columns>
+        <ColumnInfo Id="FirstName" SortIndex="1" />
+        <ColumnInfo Id="LastName" SortIndex="0" SortOrder="Ascending" />
+      </Columns>
+    </ListView>
+    <ListView Id="Aviator_LookupListView">
+      <Columns>
+        <ColumnInfo Id="FullName" PropertyName="FullName" Index="0" SortIndex="0" SortOrder="Ascending" IsNewNode="True" />
+        <ColumnInfo Id="Age" PropertyName="Age" Index="1" SortIndex="1" SortOrder="Ascending" IsNewNode="True" />
+        <ColumnInfo Id="AirportName" PropertyName="Airport.Name" Index="2" SortOrder="Ascending" SortIndex="2" Caption="Airport" IsNewNode="True" />
+        <ColumnInfo Id="FirstName" Removed="True" />
+      </Columns>
+    </ListView>
+    <DetailView Id="City_DetailView">
+      <Items>
+        <PropertyEditor Id="CityDay" DisplayFormat="{0:dd.MM}" EditMask="dd.MM" />
+        <PropertyEditor Id="FoundYear" DisplayFormat="{0:d0}" EditMask="d0" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="City" RelativeSize="100">
+              <LayoutGroup Id="City_col1" RelativeSize="50.098619329388562">
+                <LayoutItem Id="Name" RelativeSize="5.8181818181818183" />
+                <LayoutItem Id="Population" RelativeSize="4.3636363636363633" />
+                <LayoutItem Id="Country" Index="2" RelativeSize="4.3636363636363633" />
+                <LayoutItem Id="Metro" Index="3" RelativeSize="85.454545454545453" />
+              </LayoutGroup>
+              <LayoutGroup Id="City_col2" RelativeSize="49.901380670611438">
+                <LayoutItem Id="FoundYear" RelativeSize="5.8181818181818183" />
+                <LayoutItem Id="CityDay" RelativeSize="4.3636363636363633" />
+                <LayoutItem Id="Position" RelativeSize="89.818181818181813" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="City_ListView">
+      <Columns>
+        <ColumnInfo Id="Country" Index="1" />
+        <ColumnInfo Id="Population" Index="2" />
+        <ColumnInfo Id="Metro" Index="3" />
+        <ColumnInfo Id="FoundYear" DisplayFormat="{0:D0}" EditMask="D0" />
+        <ColumnInfo Id="CityDay" DisplayFormat="{0:dd.MM}" EditMask="dd.MM" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>
